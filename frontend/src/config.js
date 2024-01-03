@@ -1,5 +1,4 @@
-const serverUrl ="https://music2-backend.onrender.com"
-// "https://music-cart-backend-xd18.onrender.com";
+const serverUrl ="http://localhost:7000"
 // "http://localhost:7000"
 
 export default serverUrl;
