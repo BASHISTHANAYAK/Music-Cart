@@ -9,6 +9,7 @@ import CheckOut from "../pages/CheckOutPage/checkOut.js";
 import Successful from "../pages/successfulPage/successful.js";
 import SearchNav from "../components/Search In Navbar/searchNav.js";
 import Test from "../pages/test/test.js";
+import PageNotFound from "../pages/PageNotFound/PageNotFound.jsx";
 
 const pageRoute = () => {
   return (
@@ -23,6 +24,7 @@ const pageRoute = () => {
         <Route path="/checkOutPage" element={<CheckOut />} />
         <Route path="/successfulPage" element={<Successful />} />
         <Route path="/SearchNav" element={<SearchNav />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
